@@ -44,7 +44,7 @@ def main():
         is_in_manual_mode=False,
         changeset_comment="Zmiana tagowania paczkomatów z amenity=vending_machine na amenity=parcel_locker",
         discussion_url="https://forum.openstreetmap.org/viewtopic.php?id=74790",
-        osm_wiki_documentation_page="", # TODO
+        osm_wiki_documentation_page="https://wiki.openstreetmap.org/wiki/Mechanical_Edits/starsep-bot/retag_parcel_locker",
         edit_element_function=edit_element,
     )
 
