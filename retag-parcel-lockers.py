@@ -25,12 +25,10 @@ def edit_element(tags):
     }:
         tags["amenity"] = "parcel_locker"
         del tags["vending"]
-        tags["parcel_pickup"] = "yes"
         tags["parcel_mail_in"] = "yes"
     elif vending == "parcel_pickup":
         tags["amenity"] = "parcel_locker"
         del tags["vending"]
-        tags["parcel_pickup"] = "yes"
     else:
         print(f"Unexpected vending={vending}")
     return tags
